@@ -1,0 +1,17 @@
+{
+  "name": "api-encryption-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTTPS + 混合加密(RSA + AES)+ 签名 + 时间戳/nonce 的完整可运行 demo",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "key:gen": "node scripts/key-gen.js",
+    "key:verify": "node scripts/key-verify.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "dependencies": {
+    "selfsigned": "^2.4.1"
+  }
+}

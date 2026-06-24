@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+
+# 运行时生成,不入库
+server/keys/
+server/certs/
+server/.env
+client/.env
+.DS_Store
