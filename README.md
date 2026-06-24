@@ -1,4 +1,4 @@
-# API 加密 Demo
+# API 数据加密 Demo
 
 一套**完整可运行**的接口安全方案演示:**HTTPS + ECDHE 密钥协商 + AES-256-GCM 认证加密 + 时间戳/nonce 防重放**。
 
